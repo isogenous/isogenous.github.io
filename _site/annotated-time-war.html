@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Beautiful Jekyll | MIT license | Copyright Dean Attali 2016 -->
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>Isogenous - </title>
+
+  <meta name="author" content="Isogenous" />
+
+  
+
+  <link rel="alternate" type="application/rss+xml" title="Isogenous - " href="/feed.xml" />
+
+  
+
+  
+    
+      
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" />
+
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    
+      <link rel="stylesheet" href="/css/bootstrap-social.css" />
+    
+      <link rel="stylesheet" href="/css/main.css" />
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+    
+  
+
+  
+
+  
+
+  
+
+    <!-- Facebook OpenGraph tags -->
+  
+
+  
+  <meta property="og:title" content="Annotated Time War" />
+  
+
+   
+  <meta property="og:description" content="{% for chapter in site.data.chapter_title %}
+
+{{ chapter[&quot;title&quot;] }}
+
+{% for row in site.data.references %}
+{%  if row[&quot;chapter&quot;] == chapter[&quot;chapter&quot;] %}
+&quot;{{ row[&quot;quote&quot;] }}&quot;
+{{ row[&quot;reference&quot;] }}
+{{ row[&quot;note&quot;] }} 
+{% endif %}
+{% endfor %}
+
+{% endfor %}
+">
+  
+
+
+  <meta property="og:type" content="website" />
+
+  
+  <meta property="og:url" content="https://isogenous.github.io/annotated-time-war" />
+  <link rel="canonical" href="https://isogenous.github.io/annotated-time-war" />
+  
+
+  
+  <meta property="og:image" content="https://isogenous.github.io/img/avatar.png" />
+  
+  
+
+  <!-- Twitter summary cards -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@buzhix3" />
+  <meta name="twitter:creator" content="@buzhix3" />
+
+  
+  <meta name="twitter:title" content="Annotated Time War" />
+  
+
+  
+  <meta name="twitter:description" content="{% for chapter in site.data.chapter_title %}
+
+{{ chapter[&quot;title&quot;] }}
+
+{% for row in site.data.references %}
+{%  if row[&quot;chapter&quot;] == chapter[&quot;chapter&quot;] %}
+&quot;{{ row[&quot;quote&quot;] }}&quot;
+{{ row[&quot;reference&quot;] }}
+{{ row[&quot;note&quot;] }} 
+{% endif %}
+{% endfor %}
+
+{% endfor %}
+">
+  
+
+  
+  <meta name="twitter:image" content="https://isogenous.github.io/img/avatar.png" />
+  
+
+</head>
+
+
+  <body>
+
+    
+  
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+        <a class="navbar-brand" href="https://isogenous.github.io">Isogenous</a>
+      
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+      
+        
+          <li>
+            
+
+
+
+
+
+
+<a href="/aboutme">About Me</a>
+
+          </li>
+        
+        
+        
+          <li>
+            
+
+
+
+
+
+
+<a href="/commission">Commission</a>
+
+          </li>
+        
+        
+      </ul>
+    </div>
+
+	
+	<div class="avatar-container">
+	  <div class="avatar-img-border">
+	    <a href="https://isogenous.github.io ">
+	      <img class="avatar-img" src="/img/avatar.png" />
+		</a>
+	  </div>
+	</div>
+	
+
+  </div>
+</nav>
+
+
+    <!-- TODO this file has become a mess, refactor it -->
+
+
+
+
+
+<header class="header-section ">
+
+<div class="intro-header no-img">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="page-heading">
+          <h1>Annotated Time War</h1>
+		  
+		  
+		  
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</header>
+
+
+
+
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      
+<h3 class="chapter-title">When Red wins</h3>
+
+<div class="quote">"Look on my works, ye mighty, and despair!"</div>
+<div class="reference"><a href="https://www.poetryfoundation.org/poems/46565/ozymandias">Ozymandias - Percy Shelley</a></div>
+<div class="notes"><i>I met a traveller from an antique land,<br />
+Who said—&quot;Two vast and trunkless legs of stone<br />
+Stand in the desert. . . . Near them, on the sand,<br />
+Half sunk a shattered visage lies, whose frown,<br />
+And wrinkled lip, and sneer of cold command,<br />
+Tell that its sculptor well those passions read<br />
+Which yet survive, stamped on these lifeless things,<br />
+The hand that mocked them, and the heart that fed;<br />
+And on the pedestal, these words appear:<br />
+My name is Ozymandias, King of Kings;<br />
+Look on my Works, ye Mighty, and despair!<br />
+Nothing beside remains. Round the decay<br />
+Of that colossal Wreck, boundless and bare<br />
+The lone and level sands stretch far away.&quot;</i><br /><br />
+This poem is <a href="https://watchmen.fandom.com/wiki/Chapter_XI:_Look_On_My_Works,_Ye_Mighty">referenced</a> <a href="https://www.youtube.com/watch?v=-v-bxPsxpE0">absolutely</a> <a href="https://tvtropes.org/pmwiki/pmwiki.php/Main/LookOnMyWorksYeMightyAndDespair">everywhere</a>. It's a reminder that all power, no matter how great, is only temporary. </div>
+
+<div class="quote">"less a game of Go"</div>
+<div class="reference"></div>
+<div class="notes">Go, A very complex game with 2*10<sup>170</sup> possible board states (for reference the number of stars in the observable universe is 7*10<sup>22</sup>) </div>
+
+<div class="quote">"than a game of tic-tac-toe"</div>
+<div class="reference"><a href="https://www.imdb.com/title/tt0086567/?ref_=fn_al_tt_1">War Games</a></div>
+<div class="notes">If both players play optimally the inevitable conclusion of tic-tac-toe is a draw. Or <i>the only winning move is not to play.</i> </div>
+
+<h3 class="chapter-title">A glass jar</h3>
+
+<div class="quote">"in defiance of proverbs"</div>
+<div class="reference"></div>
+<div class="notes">that is: <i>'a watched pot never boils'</i> </div>
+
+<div class="quote">"READ BY BUBBLING"</div>
+<div class="reference"></div>
+<div class="notes">it turns out that it's in fact possible to <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2736739/">boil water via MRI</a>. Heating is in its essence applying enough energy to make the molecules vibrate faster. Energy application can be done via magnetic field (think induction stove) </div>
+
+<div class="quote">"future shines so bright I gotta wear shades"</div>
+<div class="reference"><a href="https://www.youtube.com/watch?v=8qrriKcwvlY">The Future's So Bright - Timbuk 3</a></div>
+<div class="notes"><i>Things are going great, and they're only getting better <br />
+I'm doing all right, getting good grades<br />
+The future's so bright, I gotta wear shades </i> </div>
+
+<div class="quote">"vast and trunkless legs of stone"</div>
+<div class="reference"><a href="https://www.poetryfoundation.org/poems/46565/ozymandias">Ozymandias - Percy Shelley</a></div>
+<div class="notes">Ozymandias again! Red is reading the overanthologized literature of the early Strand 6 nineteenth century that Blue recommends. </div>
+
+
+	    
+    </div>
+  </div>
+</div>
+
+
+    <footer>
+  <div class="container beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+          
+          <li>
+            <a href="https://github.com/isogenous" title="GitHub">
+              <span class="fa-stack fa-lg" aria-hidden="true">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+              </span>
+              <span class="sr-only">GitHub</span>
+            </a>
+          </li>
+          
+		  
+          <li>
+            <a href="https://twitter.com/buzhix3" title="Twitter">
+              <span class="fa-stack fa-lg" aria-hidden="true">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+              <span class="sr-only">Twitter</span>
+            </a>
+          </li>
+          
+	  
+      
+		  
+		  
+		  
+		  
+      
+      
+      
+      
+      
+		  
+      
+      
+      
+        </ul>
+        <p class="copyright text-muted">
+		  Isogenous
+		  &nbsp;&bull;&nbsp;
+		  2021
+
+		  
+		  &nbsp;&bull;&nbsp;
+		  <a href="https://isogenous.github.io">isogenous.github.io</a>
+		  
+	    </p>
+	        <!-- Please don't remove this, keep my open source work credited :) -->
+		<p class="theme-by text-muted">
+		  Theme by
+		  <a href="http://deanattali.com/beautiful-jekyll/">beautiful-jekyll</a>
+		</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  
+    
+
+
+
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script>
+      	if (typeof jQuery == 'undefined') {
+      	  document.write('<script src="/js/jquery-1.11.2.min.js"></scr' + 'ipt>');
+      	}
+      </script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+	<script src="/js/bootstrap.min.js"></script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+	<script src="/js/main.js"></script>
+    
+  
+
+
+
+	<!-- Google Analytics -->
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		ga('create', '', 'auto');
+		ga('send', 'pageview');
+	</script>
+	<!-- End Google Analytics -->
+
+
+  
+  </body>
+</html>
