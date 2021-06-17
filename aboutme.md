@@ -4,13 +4,8 @@ title: About me
 subtitle:
 ---
 
-Hobby Artist. Using mostly traditional media.
-
-Currently all things MDZS
+Currently loving all things MDZS
 
 More recently completely obsessed with <a href="https://www.npr.org/2019/07/18/742651647/letters-serve-to-bond-time-traveling-rivals-in-this-is-how-you-lose-the-time-war">This is How you Lose the Time War</a>
 
 See my <a href="/annotated-time-war">WIP annotated reference to TIHYLTTW</a>
-
-
-Maybe some Scum Villain, Shan He Ling, FGEP art in the future.
