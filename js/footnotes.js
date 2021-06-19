@@ -4,7 +4,7 @@ function convert_text_to_footnotes() {
   var footnote_num =0;
 
   var link_to_footnote_template ='<a name="back0" rel="nofollow" id="back0"></a><a href="#note0" rel="nofollow"><sup>0</sup></a>'
-  var link_back_template ='<li><sup><a href="#back0" rel="nofollow">[^]</a></sup> <a name="note0" rel="nofollow" id="note0"></a>FOOTNOTE</li>'
+  var link_back_template ='<li><sup><a href="#back0" rel="nofollow">[^]</a></sup> <a name="note0" rel="nofollow" id="note0"></a>FOOTNOTE</li>\r\n'
 
   var all_footnotes_html='<ol>'
 
