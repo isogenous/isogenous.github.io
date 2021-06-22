@@ -19,6 +19,8 @@ function convert_text_to_footnotes() {
 
   var html_with_footnotes = original_html.replace(/[\[\(]FOOTNOTE[\:\s](.*)[\]\)]/g, (match, $1) => {
     footnote_num++
+    var id1=uuidv4()
+    var id2=uuidv4()
 
     var link_back_html = link_back_template.replaceAll('back0', id1).replaceAll('note0', id2).replaceAll('FOOTNOTE', $1.trim())
     all_footnotes_html = all_footnotes_html.concat(link_back_html)
